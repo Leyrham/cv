@@ -1,0 +1,35 @@
+ /* Réinitialisation des styles par défaut des listes */
+ /*navbar contact*/
+ .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style des éléments de la barre de navigation */
+  .navbar li {
+    display: inline; /* Affichage en ligne pour les éléments */
+    margin-right: 20px; /* Espacement entre les éléments */
+  }
+  
+  /* Style des liens */
+  .navbar li a {
+    text-decoration: none; /* Supprimer le soulignement par défaut des liens */
+    padding: 5px 10px; /* Espacement du texte dans les boutons */
+    background-color: #28429f; /* Couleur de fond des boutons */
+    color: #fff; /* Couleur du texte des boutons */
+    border-radius: 5px; /* Coins arrondis */
+  }
+  
+  /* Style au survol du bouton */
+  .navbar li a:hover {
+    background-color: #6771ca; /* Changement de couleur au survol */
+  }
+  
+  /*background de la page */
+  body {
+    font-size: 1.8rem;
+    font-family: "Fira Sans", sans-serif;
+    color:rgb(105, 142, 255);
+    background-color: #ffffff;
+  }
